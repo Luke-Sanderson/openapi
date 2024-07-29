@@ -1,8 +1,8 @@
 name: '(PROD) Release OpenAPI Spec'
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: '0 9 * * *' # Run at 9AM UTC
+  # schedule:
+  #   - cron: '0 9 * * *' # Run at 9AM UTC
 permissions:
   contents: write
   pull-requests: write
