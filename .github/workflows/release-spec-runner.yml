@@ -1,8 +1,8 @@
 name: 'Release Runner: Start the Release Process for DEV, QA, and STAGING'
 on:
   workflow_dispatch: {}
-  schedule:
-    - cron: '0 * * * *' # Run every hour
+  # schedule:
+  #   - cron: '0 * * * *' # Run every hour
 permissions:
   contents: write
   pull-requests: write
